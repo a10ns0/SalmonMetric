@@ -1,0 +1,33 @@
+keypoints:
+  num_keypoints: 11
+  
+  names:
+    - "Hocico"
+    - "Ojo"
+    - "Opérculo"
+    - "Inicio_Aleta_Dorsal"
+    - "Fin_Aleta_Dorsal"
+    - "Inicio_Aleta_Anal"
+    - "Fin_Aleta_Anal"
+    - "Aleta_Pectoral"
+    - "Pedúnculo_Caudal"
+    - "Horquilla_Superior"
+    - "Horquilla_Inferior"
+  
+  oks_sigmas:
+    - 0.025
+    - 0.030
+    - 0.050
+    - 0.070
+    - 0.080
+    - 0.060
+    - 0.070
+    - 0.050
+    - 0.080
+    - 0.060
+    - 0.060
+
+validation:
+  custom_metrics:
+    pck_thresholds: [0.1, 0.2, 0.3]
+    oks_thresholds: [0.5, 0.75, 0.9]
