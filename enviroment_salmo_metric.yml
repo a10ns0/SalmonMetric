@@ -1,0 +1,4 @@
+name: mi_env
+channels:
+  - defaults
+prefix: C:\Users\Alonso\anaconda3\envs\mi_env
